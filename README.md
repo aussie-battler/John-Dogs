@@ -69,7 +69,7 @@ Now drop the "custom" folder into your.mission.pbo
 	};
 
 ```
-+ note that if you already have class CfgSounds in the description.ext just add the line:
++ note that if you already have class CfgSounds in the description.ext just add the line below to CfgSounds:
 ```
 #include "custom\dogs\sounds\defines.hpp"
 ```
