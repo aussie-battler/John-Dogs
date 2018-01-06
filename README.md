@@ -78,6 +78,9 @@ Now drop the "custom" folder into your.mission.pbo
 BURK_dogSeek = compileFinal preprocessFileLineNumbers "custom\dogs\JohnO_fnc_seeking.sqf"; 
 BURK_dogFollowPlayer = compileFinal preprocessFileLineNumbers "custom\dogs\JohnO_fnc_following.sqf"; 
 ```
+9. Now change the price of the dog, x2 beef parts are needed. In config.cpp search for BeefParts and change the line to:
+
+class Exile_Item_BeefParts { quality = 1; price = 10000; sellPrice = 14;}; // change the buy/sell price to whatever suits.
 
 **Infistar Settings:**
 Add "Craft Vehicle" to the allowedActions section:
