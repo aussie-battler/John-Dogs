@@ -145,3 +145,5 @@ inVehicleCheck =
 
 //end get in vehicle   **/
 ```
+![JohnDog](https://github.com/aussie-battler/John-Dogs/blob/master/20180105215828_1.jpg?raw=true)
+![JohnDog](https://github.com/aussie-battler/John-Dogs/blob/master/20180105225703_1.jpg)
