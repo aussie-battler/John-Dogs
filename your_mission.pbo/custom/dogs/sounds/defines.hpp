@@ -1,6 +1,5 @@
 
-    sounds[] = {bark2, barkmean1, dog_growl, dog_ruff, dog_whine, growls3, pain, whistle};
-    class bark2
+	class bark2
     {
         name = "bark2";
         sound[] = {"custom\dogs\sounds\bark2.ogg",1.0,1.0};
