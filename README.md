@@ -50,6 +50,18 @@ class CfgXM8
 	};
 }; 
 ```
+
+(change XM8_App01_Button to the app number that is spare eg. "XM8_App01_Button" "XM8_App02_Button" "XM8_App03_Button" ) 
+```
+class XM8_App01_Button: RscExileXM8AppButton1x1
+{
+    textureNoShortcut = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+    text = "Attack Dog: x2 Dog Food needed";
+    onButtonClick = "['ExAd_Dog'] call ExAd_XM8_DV_fnc_spawnVehicle";
+    resource = "";
+}; 
+```
+
 6. Add this line to your config.cpp file Custom Code Section:
 ```
 class CfgExileCustomCode 
