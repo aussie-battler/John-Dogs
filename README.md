@@ -43,7 +43,7 @@ class CfgXM8
 		logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
 		bambiState = 0;
 		vehicleClass = "Alsatian_Black_F";
-		recipe[] = {{"Exile_Item_BeefParts",1}};
+		recipe[] = {{"Exile_Item_Dogfood",1}};
 		packable = 0;
 		autoCleanUp = 0;
 		quickFunction = "['ExAd_Dog'] call ExAd_XM8_DV_fnc_spawnVehicle";
