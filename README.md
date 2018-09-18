@@ -51,7 +51,7 @@ class CfgXM8
 }; 
 ```
 
-(change XM8_App01_Button to the app number that is spare eg. "XM8_App01_Button" "XM8_App02_Button" "XM8_App03_Button" ) 
+(change XM8_App01_Button to the app number that is spare eg. "XM8_App01_Button","XM8_App02_Button") 
 ```
 class XM8_App01_Button: RscExileXM8AppButton1x1
 {
