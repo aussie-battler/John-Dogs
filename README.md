@@ -13,7 +13,7 @@
 
 **Install: John Dogs from your XM8.**
 
-1. Install ExAd by @Janski https://goo.gl/VBxFFa
+1. Install ExAd by @Janski https://github.com/aussie-battler/ExAd
 
 2. Drop the DeployVehicle folder into your.mission\ExAdClient\XM8\Apps\DeployVehicle
    
