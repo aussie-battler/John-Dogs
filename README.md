@@ -87,8 +87,23 @@ Now drop the "custom" folder into your.mission.pbo
 ```
 8. Add these lines to your init.sqf:
 ```
-BURK_dogSeek = compileFinal preprocessFileLineNumbers "custom\dogs\JohnO_fnc_seeking.sqf"; 
-BURK_dogFollowPlayer = compileFinal preprocessFileLineNumbers "custom\dogs\JohnO_fnc_following.sqf"; 
+
+{
+    _code = '';
+    _function = _x select 0;
+    _file = _x select 1;
+
+    _code = compileFinal (preprocessFileLineNumbers _file);
+
+    missionNamespace setVariable [_function, _code];
+}
+forEach
+[
+    ['BURK_dogSeek', 'custom\dogs\JohnO_fnc_seeking.sqf'],	
+	['BURK_dogFollowPlayer', 'custom\dogs\JohnO_fnc_following.sqf']
+];
+
+
 ```
 9. Now change the price of the dog, x2 beef parts are needed. In config.cpp search for BeefParts and change the line to:
 
