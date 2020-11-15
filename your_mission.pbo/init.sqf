@@ -11,7 +11,7 @@
 forEach
 [
     ['BURK_dogSeek', 'custom\dogs\JohnO_fnc_seeking.sqf'],	
-	['BURK_dogFollowPlayer', 'custom\dogs\JohnO_fnc_following.sqf']
+    ['BURK_dogFollowPlayer', 'custom\dogs\JohnO_fnc_following.sqf']
 ];
 
 
